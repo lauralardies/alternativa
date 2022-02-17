@@ -7,15 +7,25 @@
 Algoritmo descuento
 
 Entrada
+    n : ENTERO # Número de niños en la familia
 
-Resultado 
+Resultado : ENTERO # Porcentaje de descuento que se aplica a esa familia
 
 Precondicion
-
-Variables
+    # Vemos en en enunciado del ejercicio que las familias que sólo tienen un niño no cuentan con descuento
+    n > 1 
 
 Realizacion
-
-Poscondicion
+    Si n = 2
+        Resultado <- 10 %
+    Si n = 3
+        Resultado <- 15 %
+    Si n = 4
+        Resultado <- 18 %
+    Si n > 4
+        Resultado <- (14 + n) %
+        
+        Si Resultado > 100 %
+            Resultado <- 100 % 
 
 fin descuento
