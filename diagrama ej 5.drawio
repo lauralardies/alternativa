@@ -4,19 +4,20 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="Algoritmo DESCUENTO" style="swimlane;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="290" width="200" height="200" as="geometry"/>
+                <mxCell id="3" value="Precio entrada" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="390" width="200" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="n : 1 Número&lt;br&gt;Resultado: 1 Número" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
-                    <mxGeometry x="35" y="50" width="130" height="30" as="geometry"/>
+                <mxCell id="4" value="n : 1 Número&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3" vertex="1">
+                    <mxGeometry x="60" y="30" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Si n = 2 --&amp;gt; Resultado = 10 %&amp;nbsp;&lt;br&gt;Si n = 3 --&amp;gt; Resultado = 15%&lt;br&gt;Si n = 4 --&amp;gt; Resultado = 18%&lt;br&gt;Si n &amp;gt; 4 --&amp;gt; Resultado = (14 + n) %" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
-                    <mxGeometry y="120" width="200" height="60" as="geometry"/>
+                <mxCell id="6" value="descuento(n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3" vertex="1">
+                    <mxGeometry x="55" y="70" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="3">
+                <mxCell id="5" value="" style="endArrow=none;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="390" y="390" as="sourcePoint"/>
-                        <mxPoint x="440" y="340" as="targetPoint"/>
+                        <mxPoint x="350" y="450" as="sourcePoint"/>
+                        <mxPoint x="550" y="450" as="targetPoint"/>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
             </root>
