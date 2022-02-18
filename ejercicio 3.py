@@ -22,4 +22,6 @@ Descuento (precio, REAl): REAL
     si no si 
         precio > 500
     entonces 
-        precio > 500
+        precio > 500 = > Aplica descuento (8%)
+        resultado precio * 8/100
+    fin descuento
