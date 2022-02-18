@@ -9,8 +9,21 @@ Ejercicio 1: Trata de crear un algoritmo que sea capaz de calcular el día de la
 
 Ejercicio2: Creación de un algoritmo, dados dos números, que clasifique su producto y suma.
 
+Eejercicio 3:  En este ejercicio se nos planteaba la siguiente situación : "Un comerciante hace un descuento del 5 % en todas las compras con un importe comprendido entre 100 y 500 €, y del 8 % en los importes superiores." Y se nos pedía escribir el algoritmo de cálculo del importe del descuento en una compra dada.
+
 Ejercicio 5: En este ejercicio sólo conociendo el número de niños de una familia, somos capaces de calcular qué porcentaje de descuento tenemos que aplicar a las entrada para el Parque Warner Madrid.
 
+Ejercicio 6: En este ejercicio se nos planteaba que una empresa de microprocesadores haría descuentos de la siguiente forma:
+
+El descuento concedido es de un 10 % en compras de entre 10 000 y 20 000 componentes.
+
+El descuento concedidio es de un 15 % en compras de entre 20 001 y 40 000 componentes. 
+
+El descuento concedidio es de un 20 % en compras superiores a  40 000 componentes.
+
+Además, si el cliente es COMMAQ, el descuento se reduce un 2 %, mientras que si es BEL disfruta de un descuento mejorado en un 1 %.
+
+Dada esta información se epide establecer el algoritmo de cálculo del porcentaje de descuento.
 
 
 
