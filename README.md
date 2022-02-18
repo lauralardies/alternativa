@@ -7,4 +7,11 @@ Esta tarea consiste en resolver los enunciados aportados en el campus virtual (s
 
 Ejercicio 1: Trata de crear un algoritmo que sea capaz de calcular el día de la semana sucesivo a otro. Por ejemplo, si me dicen que estamos a jueves, a través de este algoritmo tenemos que poder calcular que el día siguiente al jueves es viernes a través de un programa. 
 
+Ejercicio2: Creación de un algoritmo, dados dos números, que clasifique su producto y suma.
+
 Ejercicio 5: En este ejercicio sólo conociendo el número de niños de una familia, somos capaces de calcular qué porcentaje de descuento tenemos que aplicar a las entrada para el Parque Warner Madrid.
+
+
+
+
+Ejercicio 7: Se trata  de crear un algoritmo para saber el coste total de un viaje escolar y el coste individual, dado los alumnos y los dias que se van de viaje.
