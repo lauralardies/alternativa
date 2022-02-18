@@ -1,4 +1,4 @@
-Algoritmo NOTA FINAL ALUMNO
+Algoritmo NotaFinalAlumno
     VARIABLES
     Promedio = prom
     Primer examen = parc1
@@ -20,3 +20,10 @@ Algoritmo NOTA FINAL ALUMNO
 
     PROCESOS
     Prom <- (parc1+parc2+parc3+parc4)/4
+
+    SALIDA
+    Si NF>15 Escribir "Alumno con talento"
+    Si 15>=NF>=12 Escribir "Alumno con capacidad"
+    Si NF<12 Escribir "Debe reorientarse"
+
+Fin NotaFinalAlgoritmo
