@@ -43,8 +43,13 @@ PORCENT_Descuento (nunmic: REAl, cliente:STRING, ): PORCENTAJE
     entonces
         cliente == BEL => Aplica descuento 1 %
         resultado = 1%
-    Postcondion
-    numic < 10000
-    1000<nunmic<= 20000
-    1
-    
+    postcondion
+        numic < 10000 and cliente ==BEL => Resultado = 1%
+        numic < 10000 and cliente == COMMAQ => Resultado = -2%
+        10000<nunmic<= 20000 and cliente == BEL => Resultado = 11%
+        10000<nunmic<= 20000 and cliente == COMMAQ => Resultado = 8%
+        20000< nunmic <= 40000 and cliente == BEL => Resultado = 16%
+        20000< nunmic <= 40000 and cliente == COMMAQ => Resultado = 13%
+        40000< nunmic  and cliente == BEL => Resultado = 21%
+        40000< nunmic and cliente == COMMAQ => Resultado = 18%
+    fin PORCENT_Descuento
